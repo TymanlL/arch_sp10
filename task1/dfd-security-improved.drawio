@@ -1,0 +1,163 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.15 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.15">
+  <diagram id="security-improved" name="Security Improved Processes">
+    <mxGraphModel dx="1877" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Улучшенные процессы с интегрированными мерами безопасности" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="160" y="40" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Пациент" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.externalEntity;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Сотрудник ресепшена" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.externalEntity;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="320" y="120" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Врач" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.externalEntity;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="640" y="120" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Процесс&#xa;идентификации и&#xa;аутентификации" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="320" y="280" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Шифрование&#xa;данных в&#xa;хранилище" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="600" y="390" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Контроль&#xa;доступа по&#xa;ролям (RBAC)" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="320" y="400" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Аудит&#xa;действий&#xa;пользователей" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="10" y="400" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Псевдонимизация&#xa;медицинских&#xa;данных" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="320" y="560" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Защищенный&#xa;API для внешних&#xa;интеграций" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="640" y="560" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Автоматическое&#xa;тегирование&#xa;данных" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="560" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Централизованная зашифрованная база данных" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=30;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="285" y="720" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Система мониторинга и алертинга" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=30;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="80" y="820" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Журнал аудита" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=30;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="560" y="840" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Идентификация" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.5;exitX=1;exitY=0.75;" parent="1" source="3" target="6" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="190" y="190" as="sourcePoint" />
+            <mxPoint x="270" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="195" />
+              <mxPoint x="210" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Идентификация" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=0;exitX=0.5;exitY=1;" parent="1" source="4" target="6" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="330" y="260" as="sourcePoint" />
+            <mxPoint x="410" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Идентификация" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0.5;exitX=0;exitY=0.75;" parent="1" source="5" target="6" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="570" y="330" as="sourcePoint" />
+            <mxPoint x="650" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="195" />
+              <mxPoint x="580" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Проверка ролей" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=0;exitX=0.5;exitY=1;" parent="1" source="6" target="8" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="330" y="400" as="sourcePoint" />
+            <mxPoint x="410" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="Журналирование действий" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0.5;exitX=0;exitY=0.5;" parent="1" source="8" target="9" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="250" y="450" as="sourcePoint" />
+            <mxPoint x="330" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="Защита данных" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" parent="1" source="8" target="7" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="480" y="450" as="sourcePoint" />
+            <mxPoint x="560" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="Анонимизация данных" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=0;exitX=0.5;exitY=1;" parent="1" source="8" target="10" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="330" y="530" as="sourcePoint" />
+            <mxPoint x="410" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="Маркировка чувствительных данных" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0.5;exitX=0;exitY=0.5;" parent="1" source="10" target="12" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="250" y="610" as="sourcePoint" />
+            <mxPoint x="330" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="Безопасный обмен" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" parent="1" source="10" target="11" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="480" y="610" as="sourcePoint" />
+            <mxPoint x="560" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="Шифрованное хранение" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=0;exitX=0.5;exitY=1;" parent="1" source="10" target="13" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="330" y="690" as="sourcePoint" />
+            <mxPoint x="410" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="Запись в лог" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.5;exitX=0.5;exitY=1;" parent="1" source="9" target="14" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="730" as="sourcePoint" />
+            <mxPoint x="200" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-90" y="520" />
+              <mxPoint x="-90" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="Аудит доступа" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.5;exitX=1;exitY=1;" parent="1" source="13" target="15" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="410" y="820" as="sourcePoint" />
+            <mxPoint x="490" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="515" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="Интеграция с защищенным API" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0.25;exitX=0.5;exitY=1;" parent="1" source="11" target="13" edge="1">
+          <mxGeometry x="0.2" y="-15" width="80" relative="1" as="geometry">
+            <mxPoint x="510" y="690" as="sourcePoint" />
+            <mxPoint x="590" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="690" />
+              <mxPoint x="580" y="690" />
+              <mxPoint x="580" y="735" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="Автоматическое тегирование" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.25;exitX=0.5;exitY=1;" parent="1" source="12" target="13" edge="1">
+          <mxGeometry x="0.2" y="15" width="80" relative="1" as="geometry">
+            <mxPoint x="200" y="690" as="sourcePoint" />
+            <mxPoint x="280" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="690" />
+              <mxPoint x="220" y="690" />
+              <mxPoint x="220" y="735" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
